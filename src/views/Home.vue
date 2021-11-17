@@ -8,12 +8,7 @@
           :data="dataUsers"
           @done="done"
           :imgParams="logo"
-          style="
-            margin: 0 auto;
-            width: 1000px;
-            height: 1200px;
-            user-select: none;
-          "
+          style="margin: 0 auto; width: 80vw; height: 80vh; user-select: none"
           @click="spinTheWheel"
           :animDuration="3000"
         />
@@ -60,7 +55,6 @@ export default {
       logo: {
         width: 200,
         height: 200,
-        src: "https://www.jobbnorge.no/search/img/logo/JN_jubileumslogo.svg",
         backround: "#127dac",
       },
       dataUsers: [],

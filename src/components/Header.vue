@@ -22,7 +22,7 @@
 }
 
 #nav {
-  background: linear-gradient(180deg, #127dac, transparent);
+  background: linear-gradient(180deg, rgb(139, 11, 255), transparent);
 }
 .page-header {
   height: 5em;
@@ -40,11 +40,13 @@
 
 #nav a {
   font-weight: bold;
-  color: #efd2f1;
+  color: #5fff67;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
   color: #ff81e4;
+  text-decoration: underline;
 }
 ul {
   list-style: none;

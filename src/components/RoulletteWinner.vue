@@ -6,6 +6,7 @@
       top: 0;
       height: 100%;
       width: 100%;
+      display: table;
       background: linear-gradient(180deg, #8b0bff, #ffcbcb);
     "
     v-if="winner"
