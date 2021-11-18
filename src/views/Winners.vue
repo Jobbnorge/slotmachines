@@ -26,7 +26,7 @@ export default {
     };
   },
   created() {
-    this.winners = this.$store.getters.getWinners.reverse();
+    this.winners = this.$store.getters.getWinners;
   },
 };
 </script>

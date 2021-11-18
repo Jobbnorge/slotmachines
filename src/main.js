@@ -15,7 +15,9 @@ const store = createStore({
       return state.users;
     },
     getWinners(state) {
-      return state.winners;
+      return state.winners.sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+      });
     },
   },
   mutations: {
