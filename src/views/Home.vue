@@ -10,7 +10,7 @@
           :imgParams="logo"
           style="margin: 0 auto; width: 80vw; height: 80vh; user-select: none"
           @click="spinTheWheel"
-          :animDuration="3000"
+          :animDuration="8500"
         />
       </transition>
     </div>
@@ -57,6 +57,7 @@ export default {
         height: 200,
         backround: "#127dac",
       },
+      audio: new Audio(require("../assets/spinning.mp3")),
       dataUsers: [],
       winner: null,
       random: new Random(),
@@ -92,6 +93,7 @@ export default {
     },
     spinTheWheel() {
       console.log(this.gift);
+      this.audio.play();
       this.$refs.wheel.spin();
     },
     done(val) {
