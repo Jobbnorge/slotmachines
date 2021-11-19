@@ -6,7 +6,7 @@
           <router-link to="/">SPILL</router-link>
         </li>
         <li>
-          <router-link to="/about">BRUKERE</router-link>
+          <router-link to="/about">DELTAKERE</router-link>
         </li>
         <li>
           <router-link to="/winners">VINNERE</router-link>
