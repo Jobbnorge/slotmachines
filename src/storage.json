@@ -2,132 +2,137 @@
   "users": [
     {
       "hasPaid": true,
-      "name": "Jan Solhaug",
+      "name": "Jan",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/11/Jan_280x280.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Kenneth N. Johansen",
+      "name": "Kenneth",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/KennethJ_280x280.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Johanne Mosti Borøy",
+      "name": "Johanne",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Johanne_280x280.jpg"
     },
     {
       "hasPaid": false,
-      "name": "Tom Holen",
+      "name": "Tom ",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Tom_280x280.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Hanne Gravrok",
+      "name": "Hanne",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Hanne_280x280.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Kathrine Andersen",
-      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Kathrine_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Sofie Berntsen",
-      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/09/Sofie_280x280-5d822522bf65c.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Silje Marie Furfjord Valøy",
-      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2021/05/Silje_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Linn Cecilie Jensen",
-      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2021/06/Linn_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Frida Kalbakk",
-      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/09/Frida_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Elisabeth Veimoen",
-      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Elisabeth_280x280.jpg"
-    },
-    {
-      "hasPaid": false,
-      "name": "Jørn Novik",
-      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Jorn_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Trine Tverbak",
-      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Trine_280x280-1.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Lena Solvoll",
-      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2021/05/Lena_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Daniel Korsnes-Nergård",
-      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/08/noun_avatar_2119599.png"
-    },
-    {
-      "hasPaid": true,
-      "name": "Åse Antonsen",
-      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Ase_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Malene Dybvik",
-      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Malene_280x280.jpg"
-    },
-    {
-      "hasPaid": true,
-      "name": "Eva Karova",
+      "name": "Charlotte",
       "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/03/noun_avatar_2095624_127dac.png"
     },
     {
       "hasPaid": true,
-      "name": "Morten Lines",
+      "name": "Kathrine",
+      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Kathrine_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Sofie",
+      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/09/Sofie_280x280-5d822522bf65c.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Silje",
+      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2021/05/Silje_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Linn",
+      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2021/06/Linn_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Frida",
+      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/09/Frida_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Elisabeth",
+      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Elisabeth_280x280.jpg"
+    },
+    {
+      "hasPaid": false,
+      "name": "Jørn",
+      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Jorn_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Trine",
+      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Trine_280x280-1.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Lena",
+      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2021/05/Lena_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Daniel",
+      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/08/noun_avatar_2119599.png"
+    },
+    {
+      "hasPaid": true,
+      "name": "Åse",
+      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Ase_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Malene",
+      "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Malene_280x280.jpg"
+    },
+    {
+      "hasPaid": true,
+      "name": "Eva",
+      "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/03/noun_avatar_2095624_127dac.png"
+    },
+    {
+      "hasPaid": true,
+      "name": "Morten",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Morten_280x280.jpg"
     },
     {
       "hasPaid": false,
-      "name": "Mads Svendsen",
+      "name": "Mads",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Mads_280x280.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Solfrid Tjærandsen",
+      "name": "Solfrid",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Solfrid_280x280-1.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Lars M. Eliassen",
+      "name": "Lars",
       "image": "https://www.jobbnorge.no/about/wp-content/uploads/2018/12/Lars_280x280.jpg"
     },
     {
       "hasPaid": false,
-      "name": "Alexander Schmidt",
+      "name": "Alexander",
       "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/09/Alexander_280x280.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Håvard Jarl Heim",
+      "name": "Håvard",
       "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/09/Haavard_280x280.jpg"
     },
     {
       "hasPaid": false,
-      "name": "Emmy Sortland",
+      "name": "Emmy ",
       "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2019/09/Emmy_280x280.jpg"
     },
     {
       "hasPaid": true,
-      "name": "Vilje Bech",
+      "name": "Vilje",
       "image": "https://jobbnorgewpstorage.blob.core.windows.net/blobs/2021/05/Vilje_280x280.jpg"
     }
   ],
