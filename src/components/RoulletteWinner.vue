@@ -36,7 +36,7 @@
           <h3
             style="padding: 1em; cursor: pointer"
             class="clickable"
-            @click="moreActions = false"
+            @click="$emit('Reset')"
           >
             NEI
           </h3>
