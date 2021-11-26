@@ -46,7 +46,7 @@ export default {
     });
     this.dataUsers = data;
     const i = this.random.integer(0, this.dataUsers.length);
-    this.gift = this.dataUsers[i].id;
+    this.gift = this.dataUsers[i + 1].id;
     console.log(this.gift);
   },
   data() {

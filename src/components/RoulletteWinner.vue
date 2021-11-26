@@ -42,27 +42,6 @@
           </h3>
         </div>
       </div>
-      <div v-else>
-        <h5>SPILL IGJEN?</h5>
-        <div
-          style="display: flex; gap: 1em; width: 100%; justify-content: center"
-        >
-          <h3
-            @click="$emit('Reset')"
-            style="padding: 1em; cursor: pointer"
-            class="clickable"
-          >
-            JA
-          </h3>
-          <h3
-            @click="$router.push('winners')"
-            style="padding: 1em; cursor: pointer"
-            class="clickable"
-          >
-            NEI
-          </h3>
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -75,6 +54,7 @@ export default {
     addToWinners(user) {
       this.$store.commit("addToWinner", user);
       this.moreActions = false;
+      this.$router.push("/winners");
     },
   },
   data() {

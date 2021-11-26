@@ -12,7 +12,16 @@ const store = createStore({
   },
   getters: {
     getUsers(state) {
-      return state.users;
+      function compare(a, b) {
+        if (a.name < b.name) {
+          return -1;
+        }
+        if (a.name > b.name) {
+          return 1;
+        }
+        return 0;
+      }
+      return state.users.sort(compare);
     },
     getWinners(state) {
       return state.winners.sort((a, b) => {
@@ -25,6 +34,7 @@ const store = createStore({
       state.users.filter((u) => u.name == user.name).hasPaid = !user.hasPaid;
     },
     addToWinner(state, user) {
+      user.hasPaid = false;
       user.date = new Date().toLocaleString();
       state.winners.push(user);
       console.log(this.state.winners);
