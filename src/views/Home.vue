@@ -98,7 +98,7 @@ export default {
           array[currentIndex],
         ];
       }
-      const i = this.random.integer(0, this.dataUsers.length);
+      const i = this.random.integer(1, this.dataUsers.length);
       this.gift = this.dataUsers[i - 1].id;
       return array;
     },

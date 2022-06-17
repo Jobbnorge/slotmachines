@@ -18,23 +18,23 @@
           v-for="user in usersForView"
           :key="user"
           @click="toggle(user)"
-          style="margin: 0.5em auto; width: 300px"
+          style="margin: 0.5em auto"
           class="list-item"
         >
           <div
-            style="
-              display: grid;
-              grid-template-columns: 1fr 6fr;
-              border-radius: 2em;
-              height: 150px;
-            "
+            style="border-radius: 2em; display: grid"
             :class="[user.hasPaid ? 'active' : 'inactive']"
           >
             <img
               :src="user.image"
-              style="height: inherit; border-radius: 2em"
+              style="
+                height: inherit;
+                border-radius: 2em 2em 0 0;
+                height: 150px;
+                place-self: center;
+              "
             />
-            <span style="margin-top: 1em">{{ user.name }}</span>
+            <span style="padding: 1em">{{ user.name }}</span>
           </div>
         </div>
       </transition-group>
@@ -94,7 +94,8 @@ export default {
 <style>
 .about {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-auto-rows: 220px;
 }
 .active {
   background: #62ff0040;

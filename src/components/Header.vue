@@ -22,7 +22,7 @@
 }
 
 #nav {
-  background: linear-gradient(180deg, rgb(139, 11, 255), transparent);
+  background: rgb(139, 11, 255);
 }
 .page-header {
   height: 5em;
