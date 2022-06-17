@@ -2,7 +2,14 @@
   <div>
     <div v-if="!winner">
       <transition name="fade" mode="out-in">
+        <div v-if="dataUsers.length == 0">
+          <h3>Ingen deltakere</h3>
+          <p>
+            Legg til deltakere for å spille. Gå til 'Deltakere' og legg til.
+          </p>
+        </div>
         <Wheel
+          v-else
           ref="wheel"
           :gift="gift"
           :data="dataUsers"
@@ -36,18 +43,20 @@ export default {
   computed: {},
   created() {
     var users = this.$store.getters.getUsers.filter((x) => x.hasPaid);
-    var data = [];
-    users.forEach((element) => {
-      data.push({
-        id: element.name,
-        value: element.name.split(" ")[0],
-        bgColor: "#ffffff",
+    if (users.length > 0) {
+      var data = [];
+      users.forEach((element) => {
+        data.push({
+          id: element.name,
+          value: element.name.split(" ")[0],
+          bgColor: "#ffffff",
+        });
       });
-    });
-    this.dataUsers = data;
-    const i = this.random.integer(0, this.dataUsers.length);
-    this.gift = this.dataUsers[i + 1].id;
-    console.log(this.gift);
+      this.dataUsers = data;
+      const i = this.random.integer(0, this.dataUsers.length);
+      this.gift = this.dataUsers[i + 1].id;
+      console.log(this.gift);
+    }
   },
   data() {
     return {

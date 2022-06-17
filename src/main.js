@@ -2,7 +2,6 @@ import json from "./storage.json";
 import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 import { createStore } from "vuex";
-
 const store = createStore({
   state() {
     return {
