@@ -2,14 +2,8 @@
   <div>
     <div v-if="!winner">
       <transition name="fade" mode="out-in">
-        <div v-if="dataUsers.length == 0">
-          <h3>Ingen deltakere</h3>
-          <p>
-            Legg til deltakere for å spille. Gå til 'Deltakere' og legg til.
-          </p>
-        </div>
         <Wheel
-          v-else
+          v-if="dataUsers.length > 1"
           ref="wheel"
           :gift="gift"
           :data="dataUsers"
@@ -19,6 +13,18 @@
           @click="spinTheWheel"
           :animDuration="8500"
         />
+        <div v-else>
+          <div v-if="dataUsers.length == 0">
+            <h3>Ingen deltakere</h3>
+            <p>
+              Legg til deltakere for å spille. Gå til 'Deltakere' og legg til.
+            </p>
+          </div>
+          <div v-if="dataUsers.length == 1">
+            <h3>For få deltakere</h3>
+            <p>Det må være minst 2 deltakere.</p>
+          </div>
+        </div>
       </transition>
     </div>
     <RoulletteWinner
@@ -53,9 +59,8 @@ export default {
         });
       });
       this.dataUsers = data;
-      const i = this.random.integer(0, this.dataUsers.length);
-      this.gift = this.dataUsers[i + 1].id;
-      console.log(this.gift);
+      const i = this.random.integer(1, this.dataUsers.length);
+      this.gift = this.dataUsers[i - 1].id;
     }
   },
   data() {
@@ -101,13 +106,11 @@ export default {
       this.winner = null;
     },
     spinTheWheel() {
-      console.log(this.gift);
       this.audio.play();
       this.$refs.wheel.spin();
     },
     done(val) {
       this.confettiMachine.addConfetti();
-      console.log(val);
       setTimeout(() => {
         this.winner = this.$store.getters.getUsers.filter(
           (u) => u.name == val.id

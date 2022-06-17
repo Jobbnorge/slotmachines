@@ -36,7 +36,6 @@ const store = createStore({
       user.hasPaid = false;
       user.date = new Date().toLocaleString();
       state.winners.push(user);
-      console.log(this.state.winners);
     },
   },
 });
